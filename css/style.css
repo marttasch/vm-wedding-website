@@ -18,6 +18,7 @@ body {
   line-height: 1.7;
   color: #828282;
   background: #fff;
+  scroll-behavior: smooth !important;
 }
 
 #page {
@@ -958,8 +959,9 @@ form label {
 #fh5co-couple-story,
 #fh5co-couple,
 #fh5co-gallery,
+#fh5co-gifts,
 .fh5co-section {
-  padding: 7em 0;
+  padding: 4em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
@@ -978,6 +980,10 @@ form label {
 
 .fh5co-section-gray {
   background: rgba(0, 0, 0, 0.04);
+}
+
+#fh5co-gifts iconify-icon {
+  font-size: 8em;
 }
 
 .couple-wrap {
