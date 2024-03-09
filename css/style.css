@@ -299,7 +299,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-cover {
-  height: 1000px;
+  height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -422,7 +422,6 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-counter .event-wrap h3,
 #fh5co-event .event-wrap h3 {
-  font-size: 14px;
   color: #000000;
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
   display: block;
@@ -430,7 +429,7 @@ h1, h2, h3, h4, h5, h6, figure {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-family: Sofia Sans Condensed;
-  font-size: 25px;
+  font-size: 30px;
 }
 #fh5co-counter .event-wrap p, #fh5co-counter .event-wrap span,
 #fh5co-event .event-wrap p,
@@ -834,7 +833,8 @@ form label {
 .fh5co-cover .display-tc {
   display: table-cell !important;
   vertical-align: middle;
-  padding-top: 130px;
+  padding-top: 80px;
+  height: 100vh;
 }
 #fh5co-header .display-tc h1, #fh5co-header .display-tc h2,
 #fh5co-counter .display-tc h1,
@@ -870,9 +870,9 @@ form label {
 #fh5co-header .display-tc h2,
 #fh5co-counter .display-tc h2,
 .fh5co-cover .display-tc h2 {
-  font-size: 20px;
+  font-size: 30px;
   line-height: 1.5;
-  margin-top: 20px;
+  margin: 1em 0;
   font-family: Engagement;
 }
 @media screen and (max-width: 480px) {
