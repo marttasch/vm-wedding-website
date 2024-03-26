@@ -1,0 +1,22 @@
+/* =======================================================
+*
+* 	Custom Style 
+*
+* ======================================================= */
+
+
+.header-date {
+    font-family: "Montserrat", sans-serif !important;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150% !important;
+}
+
+.header-qoute {
+    font-family: "Montserrat", sans-serif !important;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 200% !important;
+}

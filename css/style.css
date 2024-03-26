@@ -418,6 +418,7 @@ h1, h2, h3, h4, h5, h6, figure {
   #fh5co-counter .event-wrap,
   #fh5co-event .event-wrap {
     margin-bottom: 10px;
+    max-width: 85vw;
   }
 }
 #fh5co-counter .event-wrap h3,
@@ -975,6 +976,7 @@ form label {
   #fh5co-gallery,
   .fh5co-section {
     padding: 3em 0;
+    max-width: 100vw;
   }
 }
 
@@ -982,8 +984,10 @@ form label {
   background: rgba(0, 0, 0, 0.04);
 }
 
-#fh5co-gifts iconify-icon {
-  font-size: 8em;
+#fh5co-gifts .gift-icon {
+  font-size: 6em;
+  padding: 0;
+  margin: 0;
 }
 
 .couple-wrap {
@@ -1811,3 +1815,4 @@ form label {
 
 /*# sourceMappingURL=style.css.map */
 
+@import url("css/custom-style.css");
