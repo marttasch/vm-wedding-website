@@ -230,3 +230,21 @@
 
 
 }());
+
+// Change navbar color on scroll
+$(window).on('load', function() {
+	var scroll = $(window).scrollTop();
+	if (scroll >= 50) { // change this value according to your needs
+		$(".fh5co-nav").addClass("scrolled");
+	} else {
+		$(".fh5co-nav").removeClass("scrolled");
+	}
+});
+$(window).scroll(function() {
+	var scroll = $(window).scrollTop();
+	if (scroll >= 50) { // change this value according to your needs
+		$(".fh5co-nav").addClass("scrolled");
+	} else {
+		$(".fh5co-nav").removeClass("scrolled");
+	}
+});

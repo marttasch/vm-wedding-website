@@ -119,13 +119,40 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-nav {
-  position: absolute;
+  position: fixed;
   top: 0;
   margin: 0;
   padding: 0;
   width: 100%;
   padding: 40px 0;
   z-index: 1001;
+
+  transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
+}
+.fh5co-nav.scrolled {
+  background: rgba(0, 0, 0, 0.9);
+  padding: 20px 0;
+  transition: 0.5s alls ease;
+  -webkit-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
+
+}
+
+.fh5co-nav ul {
+  padding: 10px !important;
+  margin: 0;
+  list-style: none;
+  float: right;
+
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+.fh5co-nav li a:hover {
+  color: red !important;
+  font-weight: bold;
+  text-decoration: underline;
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav {
@@ -133,11 +160,23 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 .fh5co-nav #fh5co-logo {
+  width: 100vw;
   font-size: 40px;
   margin: 0;
   padding: 0;
   line-height: 40px;
   font-family: "Sofia Sans Condensed";
+  opacity: 0;
+
+  transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
+}
+.fh5co-nav.scrolled #fh5co-logo {
+  opacity: 1;
+  transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
 }
 .fh5co-nav a {
   padding: 5px 10px;
