@@ -62,14 +62,25 @@ body {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-.offcanvas #page {
+#fh5co-offcanvas{
   overflow: hidden;
+  position: fixed !important;
+}
+#page::after{
+  transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
   position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 101;
+  background: rgba(0, 0, 0, 0);
+  content: "";
+
 }
 .offcanvas #page:after {
-  -webkit-transition: 2s;
-  -o-transition: 2s;
-  transition: 2s;
   position: absolute;
   top: 0;
   right: 0;
@@ -124,6 +135,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
   padding: 0;
   width: 100%;
+  height: 100px;
   padding: 40px 0;
   z-index: 1001;
 
@@ -150,8 +162,6 @@ h1, h2, h3, h4, h5, h6, figure {
   border-radius: 10px;
 }
 .fh5co-nav li a:hover {
-  color: red !important;
-  font-weight: bold;
   text-decoration: underline;
 }
 @media screen and (max-width: 768px) {
@@ -163,7 +173,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100vw;
   font-size: 40px;
   margin: 0;
-  padding: 0;
+  padding: 10px;
   line-height: 40px;
   font-family: "Sofia Sans Condensed";
   opacity: 0;
@@ -1034,7 +1044,13 @@ form label {
 
 }
 
-
+section::before {
+  content: "";
+  display: block;
+  height: 100px;  /* Height of your fixed header */
+  margin: -100px 0 0;  /* Negative value of your fixed header height */
+  visibility: hidden;
+}
 
 #fh5co-testimonial,
 #fh5co-services,
@@ -1480,14 +1496,15 @@ form label {
   z-index: 1901;
   width: 270px;
   background: black;
-  font-size: 14px;
+  font-size: 24px;
   font-weight: bold;
   font-family: Sofia Sans Condensed; 
+  text-align: right;
   top: 0;
   right: 0;
   top: 0;
   bottom: 0;
-  padding: 45px 40px 40px 40px;
+  padding: 85px 40px 40px 40px;
   overflow-y: auto;
   -moz-transform: translateX(270px);
   -webkit-transform: translateX(270px);
@@ -1606,6 +1623,7 @@ form label {
   height: 25px;
   cursor: pointer;
   text-decoration: none;
+  position: fixed !important;
 }
 .fh5co-nav-toggle.active i::before, .fh5co-nav-toggle.active i::after {
   background: #444;
