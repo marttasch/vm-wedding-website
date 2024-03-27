@@ -6,6 +6,35 @@
   font-style: normal;
 }
 @font-face { font-family: Amsterdam; src: url('../fonts/AmsterdamOne.ttf'); } 
+
+/* ======= Google Fonts ======= */
+@font-face {
+  font-family: "Engagement";
+  src: url("../fonts/Engagement-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/gfonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Sacramento";
+  src: url("../fonts/gfonts/Sacramento-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Sofia Sans Condensed";
+  src: url("../fonts/gfonts/SofiaSansCondensed-VariableFont_wght.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/gfonts/WorkSans-VariableFont_wght.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Work Sans Italic";
+  src: url("../fonts/gfonts/WorkSans-Italic-VariableFont_wght.ttf") format("truetype");
+}
+
+
+
 /* =======================================================
 *
 * 	Template Style 
