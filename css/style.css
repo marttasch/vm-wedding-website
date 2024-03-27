@@ -11,6 +11,10 @@
 * 	Template Style 
 *
 * ======================================================= */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Work Sans", Arial, sans-serif;
   font-weight: 400;
@@ -18,7 +22,6 @@ body {
   line-height: 1.7;
   color: #828282;
   background: #fff;
-  scroll-behavior: smooth !important;
 }
 
 #page {
@@ -361,6 +364,9 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 850px;
   float: left;
 }
+#fh5co-event {
+  height: 100%;
+}
 #fh5co-counter .display-t,
 #fh5co-counter .display-tc,
 #fh5co-event .display-t,
@@ -407,12 +413,22 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-event .event-wrap {
   border: 2px solid rgba(0, 0, 0, 0.5);
   padding: 30px;
+  margin: auto;
   width: 100%;
   float: left;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   border-radius: 4px;
+}
+.events-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+.event-container{
+  min-width: 400px;
 }
 @media screen and (max-width: 768px) {
   #fh5co-counter .event-wrap,
