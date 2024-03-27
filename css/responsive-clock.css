@@ -113,9 +113,9 @@
   .flipTimebox .flip-clock-dot {
     margin-left: -10px;
   }
-  .flipTimebox {
-    margin: 50px 0 100px 20px;
-  }
+  /* .flipTimebox {
+    margin: 50px 0 50px 20px;
+  } */
 }
 @media screen and (max-width: 360px) {
   .flipTimebox .flip-clock-divider .flip-clock-label {
@@ -147,9 +147,9 @@
   .flipTimebox .flip-clock-dot {
     margin-left: -16px;
   }
-  .flipTimebox {
-    margin: 50px 0 100px 20px;
-  }
+  /* .flipTimebox {
+    margin: 50px 0 0px 20px;
+  } */
 }
 @media screen and (max-width: 320px) {
   .flipTimebox .flip-clock-wrapper {
@@ -180,7 +180,12 @@
 }
 
 .flip-clock-wrapper {
-  margin: 6em 4em 5em 4em!important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.flipTimebox {
+  margin: 50px 0 50px 0;
 }
 
 .flip-clock-divider .flip-clock-label {

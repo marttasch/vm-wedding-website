@@ -4,7 +4,23 @@
 *
 * ======================================================= */
 
+#fh5co-header {
+    height: 100vh !important;
+}
+#fh5co-header .row {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
 
+}
+#fh5co-header .display-tc{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-evenly !important;
+    align-items: space-evenly !important;
+    height: 90vh !important;
+    padding-top: 90px !important;
+}
 .header-date {
     font-family: "Montserrat", sans-serif !important;
     font-optical-sizing: auto;
@@ -19,4 +35,42 @@
     font-weight: 200;
     font-style: normal;
     font-size: 200% !important;
+    margin: 0 !important;
 }
+.header-lead {
+    font-family: "Montserrat", sans-serif !important;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150% !important;
+    color: #fff;
+
+    margin-top: 0;
+}
+@keyframes floating {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.header-lead iconify-icon {
+    color: rgba(255, 255, 255, 0.7);
+    width: 2em;
+    height: 100%;
+
+    animation: floating 2s ease-in-out infinite;
+}
+
+
+
+
+/* .clock {
+    margin: 0 !important;
+    margin-left: 8px !important;
+} */
