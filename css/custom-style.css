@@ -28,6 +28,18 @@
     font-style: normal;
     font-size: 150% !important;
 }
+.header-date-wrap img {
+    width: auto;
+    height: 150px;
+    margin: 2.5em 0;
+    
+    filter: drop-shadow(0 0 1.5rem rgba(125,125,125, 0.2));
+  }
+.header-date-wrap h1 {
+    font-family: Kalam Regular, sans-serif !important;
+    color: #c2c2c2
+
+}  
 
 .header-qoute {
     font-family: "Montserrat", sans-serif !important;

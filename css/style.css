@@ -32,7 +32,18 @@
   font-family: "Work Sans Italic";
   src: url("../fonts/gfonts/WorkSans-Italic-VariableFont_wght.ttf") format("truetype");
 }
-
+@font-face {
+  font-family: "Kalam Regular";
+  src: url("../fonts/gfonts/Kalam-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Kalam Bold";
+  src: url("../fonts/gfonts/Kalam-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Kalam Light";
+  src: url("../fonts/gfonts/Kalam-Light.ttf") format("truetype");
+}
 
 
 /* =======================================================
