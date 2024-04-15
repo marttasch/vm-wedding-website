@@ -108,13 +108,14 @@ body {
 }
 
 a {
-  color: #646464;
+  color: #12372A;
+  text-decoration: underline;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #646464;
+  color: #50786a;
   outline: none;
   text-decoration: none;
 }
