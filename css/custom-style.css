@@ -35,10 +35,9 @@
     
     filter: drop-shadow(0 0 1.5rem rgba(125,125,125, 0.2));
   }
-.header-date-wrap h1 {
+.header-names {
     font-family: Kalam Regular, sans-serif !important;
     color: #c2c2c2
-
 }  
 
 .header-qoute {
@@ -92,4 +91,22 @@
     margin: 1em 0 !important;
     padding: 1em 0 !important;
     border-bottom: 1px solid #e6e6e6 !important;
+}
+
+.faq-photo-share-btn-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+.faq-photo-share-btn-wrap a {
+    text-decoration: none !important;
+}
+.faq-photo-share-btn-wrap button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.faq-photo-share-btn-wrap button iconify-icon {
+    margin-right: 0.5em;
 }

@@ -199,6 +199,10 @@ h1, h2, h3, h4, h5, h6, figure {
   -webkit-transition: 0.5s all ease;
   -o-transition: 0.5s all ease;
 }
+#fh5co-logo img{
+  width: 50px;
+  height: 50px;
+}
 .fh5co-nav.scrolled #fh5co-logo {
   opacity: 1;
   transition: 0.5s all ease;

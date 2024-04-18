@@ -162,6 +162,7 @@
 
 
 	var goToTop = function() {
+		console.log('goToTop');
 
 		$('.js-gotop').on('click', function(event){
 			
